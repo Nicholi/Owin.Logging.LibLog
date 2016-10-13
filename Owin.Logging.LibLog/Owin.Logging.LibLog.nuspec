@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Owin.Logging.LibLog</id>
+        <version>4.2.6</version>
+        <authors>Nicholas Schell</authors>
+        <owners>Nicholas Schell</owners>
+        <projectUrl>https://github.com/Nicholi/Owin.Logging.LibLog</projectUrl>
+        <licenseUrl>https://github.com/Nicholi/Owin.Logging.LibLog/raw/master/LICENSE</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <copyright>Copyright 2016</copyright>
+        <developmentDependency>true</developmentDependency>
+        <description>A source code package designed to be used with LibLog to provide Owin logging.</description>
+        <summary>A source code package designed to be used with LibLog to provide Owin logging.</summary>
+        <releaseNotes></releaseNotes>
+        <tags>logging, LibLog, OWIN</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.CSharp" />
+        </frameworkAssemblies>
+        <dependencies> 
+            <dependency id="Owin" version="1.0" />
+            <dependency id="Microsoft.Owin" version="3.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Owin.Logging.LibLog.cs.pp" target="content\App_Packages\LibLog.4.2\Owin.Logging.LibLog.cs.pp" />
+    </files>
+</package>
